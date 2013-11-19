@@ -1,0 +1,10 @@
+.movable {
+	position: relative;
+	padding: 50px;
+ font-size: x-large;
+ width: 120px;
+ text-align: center;
+	vertical-align: middle;
+ background-color: #313842;
+ color: #FFF;
+}
