@@ -166,8 +166,8 @@
 				this.recordingOn = true;
 			}
 
-			this.mouseState.x = e.x;
-			this.mouseState.y = e.y;
+			this.mouseState.x = e.clientX;
+			this.mouseState.y = e.clientY;
 			this.mouseState.ox = this.mouseState.x;
 			this.mouseState.oy = this.mouseState.y;
 			this.mouseState.ix = this.mouseState.x;
@@ -180,8 +180,8 @@
 	function onMove(e) {
 		this.mouseState.ox = this.mouseState.x;
 		this.mouseState.oy = this.mouseState.y;
-		this.mouseState.x = e.x;
-		this.mouseState.y = e.y;
+		this.mouseState.x = e.clientX;
+		this.mouseState.y = e.clientY;
 
 		if (this.mouseState.down) {
 			this.setAt(this.knobValue + this.mouseState.ox - this.mouseState.x);
