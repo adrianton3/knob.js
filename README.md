@@ -3,7 +3,7 @@ knob.js
 
 Compact controller with recording and playback capabilities.
 
-See [the Knob](http://madflame991.github.io/knob.js/examples/basic/basic.html) in action!
+See [the Knob](http://adrianton3.github.io/knob.js/examples/basic/basic.html) in action!
 
 ###Usage:
 
